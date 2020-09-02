@@ -34,8 +34,7 @@ public class App {
          Compte.infoCompt(c1);
          Compte.infoCompt(c2);
          Compte.Virement(c1,50000, c2);
-         Compte.infoCompt(c1);
-         Compte.infoCompt(c2);
+         Compte.Virement(c1,15000,c2);
 
     }
 }
