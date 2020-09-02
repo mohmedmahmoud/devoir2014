@@ -20,15 +20,22 @@ public class App {
 
         // --------------exo3------------------
         System.out.println( "--------------exo3------------------");
-        Compte c1 = new Compte("Med Ahmed", 25000);
-        Compte c2 = new Compte("Moussa Fall", 75000, 20000, 50000);
+        Compte c1 = new Compte("Mohmed", 95000);
+        Compte c2 = new Compte("fatimetou", 80000, 30000, 50000);
        //pour Tester
-        c1.ajouteCredit(30000);
+    //     c1.ajouteCredit(30000);
+        System.out.println(c1.getNumC());
         System.out.println(c2.getNumC());
-        c2.Situation();
-      Compte.Virement(c1, 10000, c2);
-      Compte.infoCompt(c1);
-        
+         
+         Compte.infoCompt(c1);
+         Compte.infoCompt(c2);
+         c2.Situation();
+         Compte.Virement(c1, 50000, c2);
+         Compte.infoCompt(c1);
+         Compte.infoCompt(c2);
+         Compte.Virement(c1,50000, c2);
+         Compte.infoCompt(c1);
+         Compte.infoCompt(c2);
 
     }
 }
